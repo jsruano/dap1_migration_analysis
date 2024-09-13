@@ -49,7 +49,7 @@ To analyze the relationship between poverty levels, employment, and other releva
 
 ## 2.1. Data sources and information
 
-The sources listed below were selected for the analysis and were included and imported into the initial database: [dap1.0.sql](data\processed\dap1.0.sql).
+The sources listed below were selected for the analysis and were included and imported into the initial database: [dap1.0.sql](data/processed/dap1.0.sql).
 
 ### United Nations: Population Division
 
@@ -95,13 +95,13 @@ Description: This dataset includes processed graphs and original databases detai
 
 ## 2.2. Data processing
 
-### Data research, collection and initial data exploration
+### 2.2.1. Data research, collection and initial data exploration
 
 In this phase, data was collected from various sources, including the World Bank and the United Nations. The datasets were initially downloaded in multiple formats, such as **.csv** and **.xlsx**, and were processed using Navicat for database management. This step involved examining the data structure and content, especially focusing on the data contained in Excel files. Data was edited directly in Excel to ensure proper formatting and structure before importing it into the database.
 
 Raw data: [data/raw](data/raw)
 
-### Database design
+### 2.2.2. Database design
 
 In this phase, the database structure was designed to ensure consistency and scalability of the data. Additionally, normalization techniques were applied to reduce data redundancy and enhance data integrity.
 
@@ -132,11 +132,11 @@ Database schema: [un_migration_schema](data/processed/un_migration_schema.jpg)
   
 _____
 
-### Data preparation, configuration and data import
+### 2.2.3. Data preparation, configuration and data import
 
 The database environment was set up using **MySQL** in **Navicat**, a database management software that facilitates schema creation and management. The table structures defined during the data modeling phase were implemented, and the data was validated to ensure consistency with the original sources.
 
-### Initial data cleaning
+### 2.2.4. Initial data cleaning
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
