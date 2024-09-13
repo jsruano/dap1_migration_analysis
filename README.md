@@ -93,40 +93,52 @@ Description: This dataset includes processed graphs and original databases detai
 
     This indicator represents the share of the labor force that is unemployed but actively seeking employment. It is used as an alternative measure in the absence of sufficient data for the poverty headcount ratio. Understanding unemployment rates helps provide additional context to migration trends and economic conditions.
 
-## 2.2. Data research and processing
+## 2.2. Data processing
 
-### Data collection and initial data exploration
+### Data research, collection and initial data exploration
 
-Objective: To understand the structure, content, and quality of the available data.
-Activities:
-Data Inventory: Collect and catalog all available datasets, including their formats (e.g., CSV, Excel, JSON).
-Data Review: Examine sample data from each source to assess the completeness, consistency, and relevance.
-Identify Variables: List key variables and attributes in the datasets, such as migration flows, GDP per capita, and poverty rates.
-Understand Data Definitions: Review definitions and units of measurement to ensure clarity in interpretation.
-Initial Data Assessment: Evaluate data quality issues such as missing values, outliers, and discrepancies.
+In this phase, data was collected from various sources, including the World Bank and the United Nations. The datasets were initially downloaded in multiple formats, such as **.csv** and **.xlsx**, and were processed using Navicat for database management. This step involved examining the data structure and content, especially focusing on the data contained in Excel files. Data was edited directly in Excel to ensure proper formatting and structure before importing it into the database.
 
-### 2.2.2. Data Modeling
-Objective: To design a logical and physical schema for organizing data in the database.
-Activities:
-Schema Design: Create an Entity-Relationship (ER) diagram or data model that outlines how different data elements relate to each other.
-Define Tables and Fields: Determine the tables required, their fields, and data types based on the data sources.
-Relationships and Keys: Establish primary keys for tables and define relationships (e.g., foreign keys) to ensure data integrity.
-Normalization: Apply normalization techniques to reduce data redundancy and improve data integrity.
-Schema Documentation: Document the schema design, including table structures, relationships, and constraints.
-2.2.3. Data Preparation and Configuration
-Objective: To set up the database environment and prepare the data for import.
-Activities:
-Database Setup: Create the database and define the schema using a database management system (DBMS) such as MySQL, PostgreSQL, or SQLite.
-Create Tables: Implement the table structures defined during the data modeling phase.
-Configure Indexes: Set up indexes on frequently queried fields to optimize query performance.
-Data Import: Load data from the initial files into the database tables using data import tools or scripts.
-Data Validation: Ensure the imported data matches the original data sources in terms of structure and content.
-2.2.4. Initial Data Cleaning (Preliminary)
-Objective: To address obvious data issues identified during the initial exploration phase.
-Activities:
-Handling Missing Values: Identify and address missing values by imputation or exclusion, based on the context.
-Outlier Detection: Identify and review outliers to determine if they are errors or valid data points.
-Standardization: Ensure consistency in data formats (e.g., date formats, currency units).
+Raw data: [data/raw](data/raw)
+
+### Database design
+
+In this phase, the database structure was designed to ensure consistency and scalability of the data. Additionally, normalization techniques were applied to reduce data redundancy and enhance data integrity.
+
+an Entity-Relationship (ER) diagram was created to model how data elements relate to each other. This involved defining tables, fields, and data types, establishing primary and foreign keys for relational integrity, and applying normalization to reduce redundancy. The schema was designed to ensure scalability and data consistency
+
+This involved defining the schema, an **entity-relationship diagram** for the databases, including the creation of tables, relationships, and keys, in order to facilitate a scalable and consistent data models, maintaining data integrity.
+_____
+**World Bank Indicators**
+
+- **Handling countries, areas and regions:** the raw data from the World Bank included regional and aggregated data that was not relevant for this analysis. We filtered out these regions and kept only the country-level data. This was necessary as the regional data was often ambiguous and not suitable for detailed country-specific analysis.
+
+- **Database schema design:** the transformed data was imported into a relational database with a schema that includes a parent table (**wb_indicators**) which holds all indicators by country. Two secondary tables were created: one for countries (**wb_countries**) and another for indicators (**wb_indicators**). Each country and indicator is assigned a unique **id**.
+
+Raw data: [data/raw/wb_indicators](data/raw/wb_indicators)  
+Database schema: [wb_indicators_schema](data/processed/[wb_indicators_schema.jpg)
+
+_____
+**United Nations Population Division**
+
+- **Handling countries, areas and regions:** as well as the World Bank data, the UN Population Division data included regions and areas, which were retained for this analysis. Each location, whether a country, region or area, was assigned a unique **id** to ensure data consistency.
+
+- **Data processing:** the data was extracted from the original Excel file, containing migration stocks with detailed origin and destination information. We cleaned the data by removing elements that could hinder proper importation into the database while retaining **id**s for locations and migration records. Each record in the parent table (**un_migration_stock**) includes both the origin and destination locations, providing a comprehensive view of migration flows.
+
+ - **Schema design:** a logical and physical schema was designed organizing data in the database, including a parent table (**un_migration_stock**) and one secondary table (**un_locations**).
+
+Raw data: [original .xlsx table](data\raw\un_international_migration_stock\undesa_pd_2020_ims_stock_by_sex_destination_and_origin.xlsx)  
+Database schema: [un_migration_schema](data/processed/un_migration_schema.jpg)
+  
+_____
+
+### Data preparation, configuration and data import
+
+The database environment was set up using **MySQL** in **Navicat**, a database management software that facilitates schema creation and management. The table structures defined during the data modeling phase were implemented, and the data was validated to ensure consistency with the original sources.
+
+### Initial data cleaning
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## 2.3. Analytical Techniques
 Description of statistical and analytical techniques used (correlation, mean comparison, etc.).
@@ -171,38 +183,3 @@ Details on data processing and analytical techniques used.
 7. References
 7.1. Sources Consulted
 Citations of datasets, articles, and other resources used in the report.
-
-
-
-
-_____
-
-
-# Project Title
-
-## Introduction
-This is the introduction to the project.
-
-## Objectives
-
-### General Objectives
-- Analyze migration patterns.
-
-### Specific Objectives
-- Evaluate GDP per capita.
-- Investigate poverty rate.
-
-## Methodology
-1. Data Sources
-2. Data Processing
-3. Analytical Techniques
-
-## Results
-- Summary of findings.
-
-## Conclusions
-- Key conclusions.
-- Recommendations.
-
-## References
-- [Source 1](http://example.com)
