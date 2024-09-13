@@ -139,10 +139,6 @@ The database environment was set up using **MySQL** in **Navicat**. The table st
 During this phase, I utilized SQL queries to validate the accuracy of the imported data by cross-referencing the tables with the original datasets. I performed basic exploratory queries to check relationships between tables and fields.
 
 Jupyter notebook:
-[2.2.3. Data preparation, configuration and data import](notebooks/2.2.3. Data preparation, configuration and data import.ipynb)
-
-[2.2.3. Data preparation, configuration and data import](notebooks\2.2.3. Data preparation, configuration and data import.ipynb)
-_____
 
 ### 2.2.4. Initial data cleaning
 
