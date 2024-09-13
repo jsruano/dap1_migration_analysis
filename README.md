@@ -97,7 +97,7 @@ Description: This dataset includes processed graphs and original databases detai
 
 ### 2.2.1. Data research, collection and initial data exploration
 
-In this phase, data was collected from various sources, including the World Bank and the United Nations. The datasets were initially downloaded in multiple formats, such as **.csv** and **.xlsx**, and were processed using Navicat for database management. This step involved examining the data structure and content, especially focusing on the data contained in Excel files. Data was edited directly in Excel to ensure proper formatting and structure before importing it into the database.
+In this phase, data was collected from various sources, including the World Bank and the United Nations. The datasets were initially downloaded in multiple formats, such as **.csv** and **.xlsx**, and were processed using **Navicat**, a database management software. This step involved examining the data structure and content, especially focusing on the data contained in Excel files. Data was edited directly in Excel to ensure proper formatting and structure before importing it into the database.
 
 Raw data: [data/raw](data/raw)
 
@@ -134,7 +134,15 @@ _____
 
 ### 2.2.3. Data preparation, configuration and data import
 
-The database environment was set up using **MySQL** in **Navicat**, a database management software that facilitates schema creation and management. The table structures defined during the data modeling phase were implemented, and the data was validated to ensure consistency with the original sources.
+The database environment was set up using **MySQL** in **Navicat**. The table structures defined during the data modeling phase were implemented, and the data was validated to ensure consistency with the original sources.
+
+During this phase, I utilized SQL queries to validate the accuracy of the imported data by cross-referencing the tables with the original datasets. I performed basic exploratory queries to check relationships between tables and fields.
+
+Jupyter notebook:
+[2.2.3. Data preparation, configuration and data import](notebooks/2.2.3. Data preparation, configuration and data import.ipynb)
+
+[2.2.3. Data preparation, configuration and data import](notebooks\2.2.3. Data preparation, configuration and data import.ipynb)
+_____
 
 ### 2.2.4. Initial data cleaning
 
