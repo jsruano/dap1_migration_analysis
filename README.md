@@ -55,17 +55,17 @@ The sources listed below were selected for the analysis and were included and im
 
 **International Migrant Stock**
 
-Link: [International Migrant Stock](https://www.un.org/development/desa/pd/content/international-migrant-stock)
+Source: [International Migrant Stock](https://www.un.org/development/desa/pd/content/international-migrant-stock)
 
 Description: This dataset includes processed graphs and original databases detailing immigration and emigration statistics for various countries. The dataset presents estimates of international migrants disaggregated by age, sex, and country of origin. These estimates are based on national statistics, primarily obtained from population censuses, population registers, and representative surveys. Data are available for the years 1990, 1995, 2000, 2005, 2010, 2015, and 2020, covering 232 countries and areas worldwide.
 
-**World Bank Group | Indicators and countries**
+### World Bank Group: indicators
 
 - **GDP per Capita (current US$)**
 
     Indicator ID: NY.GDP.PCAP.CD
 
-    Link: [World Bank | GDP per Capita](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
+    Source: [World Bank | GDP per Capita](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 
     This indicator measures the total value of goods and services produced in a country divided by its population, expressed in current US dollars. It is commonly used to assess the standard of living and economic performance of a country. Comparing GDP per capita between Argentina, Italy, and Spain helps contextualize Argentina's economic standing relative to these European countries, offering insights into why migration trends might occur.
 
@@ -73,7 +73,7 @@ Description: This dataset includes processed graphs and original databases detai
 
     Indicator ID: SM.POP.NETM
 
-    Link: [World Bank | Net Migration](https://data.worldbank.org/indicator/SM.POP.NETM)
+    Source: [World Bank | Net Migration](https://data.worldbank.org/indicator/SM.POP.NETM)
 
     This indicator measures the net number of migrants (immigrants minus emigrants) in a country. It provides a direct view of migration trends and patterns.
 
@@ -81,7 +81,7 @@ Description: This dataset includes processed graphs and original databases detai
 
     Indicator ID: SI.POV.NAHC
 
-    Link: [World Bank | Poverty Headcount Ratio](https://data.worldbank.org/indicator/SI.POV.NAHC)
+    Source: [World Bank | Poverty Headcount Ratio](https://data.worldbank.org/indicator/SI.POV.NAHC)
 
     This indicator measures the percentage of the population living below the national poverty line. It is a key measure for understanding local poverty conditions and is crucial for correlating poverty with migration trends. It provides a precise view of how many people are living under conditions deemed inadequate by national standards.
 
@@ -89,7 +89,7 @@ Description: This dataset includes processed graphs and original databases detai
 
     Indicator ID: SL.UEM.TOTL.ZS
 
-    Link: [World Bank | Unemployment Rate](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?end=2023&start=1991&view=chart)
+    Source: [World Bank | Unemployment Rate](https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?end=2023&start=1991&view=chart)
 
     This indicator represents the share of the labor force that is unemployed but actively seeking employment. It is used as an alternative measure in the absence of sufficient data for the poverty headcount ratio. Understanding unemployment rates helps provide additional context to migration trends and economic conditions.
 
@@ -138,8 +138,9 @@ The database environment was set up using **MySQL** in **Navicat**. The table st
 
 During this phase, I utilized SQL queries to validate the accuracy of the imported data by cross-referencing the tables with the original datasets. I performed basic exploratory queries to check relationships between tables and fields.
 
-Jupyter notebook:
+Jupyter notebook: [2.2.3. Data preparation, configuration and data import](https://github.com/jsruano/migration_analysis/blob/main/notebooks/2.2.3.%20Data%20preparation,%20configuration%20and%20data%20import.ipynb)
 
+_____
 ### 2.2.4. Initial data cleaning
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
