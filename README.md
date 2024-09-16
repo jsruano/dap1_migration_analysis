@@ -138,10 +138,14 @@ The database environment was set up using **MySQL** in **Navicat**. The table st
 
 During this phase, I utilized SQL queries to validate the accuracy of the imported data by cross-referencing the tables with the original datasets. I performed basic exploratory queries to check relationships between tables and fields.
 
-Jupyter notebook: [2.2.3. Data preparation, configuration and data import](https://github.com/jsruano/migration_analysis/blob/main/notebooks/2.2.3.%20Data%20preparation,%20configuration%20and%20data%20import.ipynb)
+➡️ Jupyter notebook: [2.2.3. Data preparation, configuration and data import](https://github.com/jsruano/migration_analysis/blob/main/notebooks/2.2.3.%20Data%20preparation,%20configuration%20and%20data%20import.ipynb)
 
 _____
 ### 2.2.4. Initial data cleaning
+
+In the data cleaning phase, both the United Nations and World Bank tables underwent basic transformations. Blank spaces were removed, and certain expressions were modified in the **wb_countries** and **un_locations**.
+
+➡️ Jupyter notebook: [2.2.4. Initial data cleaning](https://github.com/jsruano/migration_analysis/blob/main/notebooks/2.2.3.%20Data%20preparation,%20configuration%20and%20data%20import.ipynb)
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
