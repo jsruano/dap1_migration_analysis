@@ -1,5 +1,5 @@
-## DATA ANALYSIS PROJECT REPORT
-# Migration patterns between Argentina and Europe
+## DATA ANALYSIS PROJECT
+# MIGRATION PATTERNS BETWEEN ARGENTINA AND EUROPE
 
 # 1. Introduction
 ## 1.1. Project background
@@ -123,11 +123,14 @@ _____
 
 - **Handling countries, areas and regions:** as well as the World Bank data, the UN Population Division data included regions and areas, which were retained for this analysis. Each location, whether a country, region or area, was assigned a unique **id** to ensure data consistency.
 
-- **Data processing:** the data was extracted from the original Excel file, containing migration stocks with detailed origin and destination information. We cleaned the data by removing elements that could hinder proper importation into the database while retaining **id**s for locations and migration records. Each record in the parent table (**un_migration_stock**) includes both the origin and destination locations, providing a comprehensive view of migration flows.
+- **Data processing:** the data was extracted from the original Excel file, containing migration stocks with detailed origin and destination information. We cleaned the data by removing elements that could hinder proper importation into the database while retaining **id**s for locations and migration records. Each record in the parent table (**un_migration_stock**) includes both the origin and destination locations.
 
- - **Schema design:** a logical and physical schema was designed organizing data in the database, including a parent table (**un_migration_stock**) and one secondary table (**un_locations**).
+ - **Schema design:** a logical and physical schema was designed organizing data in the database, including a parent table (**un_migration_stock**) and one secondary table (**un_locations**). The **un_locations** holds information related to each location: 
 
-Raw data: [original .xlsx table](data\raw\un_international_migration_stock\undesa_pd_2020_ims_stock_by_sex_destination_and_origin.xlsx)  
+Raw data:   
+[undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif](data/raw/un_international_migration_stock/undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif.xlsx)  
+[aggregates_correspondence_table_2020_1_modif](data/raw/un_international_migration_stock/aggregates_correspondence_table_2020_1_modif.xlsx)
+
 Database schema: [un_migration_schema](data/processed/un_migration_schema.jpg)
   
 _____
