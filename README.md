@@ -49,7 +49,7 @@ To analyze the relationship between poverty levels, employment, and other releva
 
 ## 2.1. Data sources and information
 
-The sources listed below were selected for the analysis and were included and imported into the initial database: [dap1.0.sql](data/processed/dap1.0.sql).
+The sources listed below were selected for the analysis and were included and imported into the initial database: [dap1.2.sql](data/processed/dap1.2.sql).
 
 ### United Nations: Population Division
 
@@ -116,7 +116,7 @@ _____
 - **Database schema design:** the transformed data was imported into a relational database with a schema that includes a parent table (**wb_indicators**) which holds all indicators by country. Two secondary tables were created: one for countries (**wb_countries**) and another for indicators (**wb_indicators**). Each country and indicator is assigned a unique **id**.
 
 Raw data: [data/raw/wb_indicators](data/raw/wb_indicators)  
-Database schema: [wb_indicators_schema](data/processed/[wb_indicators_schema.jpg)
+Database schema: [wb_database_schema](data/processed/[wb_database_schema.jpg)
 
 _____
 **United Nations Population Division**
@@ -131,7 +131,7 @@ Raw data:
 [undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif](data/raw/un_international_migration_stock/undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif.xlsx)  
 [aggregates_correspondence_table_2020_1_modif](data/raw/un_international_migration_stock/aggregates_correspondence_table_2020_1_modif.xlsx)
 
-Database schema: [un_migration_schema](data/processed/un_migration_schema.jpg)
+Database schema: [un_database_schema](data/processed/un_database_schema.jpg)
   
 _____
 
