@@ -125,7 +125,7 @@ _____
 
 - **Data processing:** the data was extracted from the original Excel file, containing migration stocks with detailed origin and destination information. We cleaned the data by removing elements that could hinder proper importation into the database while retaining **id**s for locations and migration records. Each record in the parent table (**un_migration_stock**) includes both the origin and destination locations.
 
- - **Schema design:** a logical and physical schema was designed organizing data in the database, including a parent table (**un_migration_stock**) and one secondary table (**un_locations**). The **un_locations** holds information related to each location: 
+ - **Schema design:** a logical and physical schema was designed organizing data in the database, including a parent table (**un_migration_stock**) and three secondary tables (**un_countries**, **un_subregion** and **un_region**).
 
 Raw data:   
 [undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif](data/raw/un_international_migration_stock/undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif.xlsx)  
