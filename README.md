@@ -173,7 +173,7 @@ _____
 
 In the data cleaning phase, both the United Nations and World Bank tables underwent basic transformations. Blank spaces were removed, and certain expressions were modified in the **wb_countries** and **un_locations**.
 
-➡️ Jupyter notebook: [2.3. Initial data cleaning](https://github.com/jsruano/migration_analysis/blob/51caebd4ad22ffc99726e6c31c046143b6cd600b/notebooks/2.3.%20Initial%20data%20cleaning.ipynb)
+➡️ Jupyter notebook: [2.3. Initial data cleaning](https://github.com/jsruano/migration_analysis/blob/0de88f5b2f4375efaf9da9e522daab54c3094006/notebooks/2.3.%20Initial%20data%20cleaning.ipynb)
 
 ## 2.4. Exploratory analysis
 
@@ -182,6 +182,10 @@ In the data cleaning phase, both the United Nations and World Bank tables underw
 The initial phase of the analysis involved exploring the United Nations databases using MySQL queries via Navicat. This exploration aimed to understand the structure and nature of the data within the tables. Given the objective was not only to produce descriptive statistics but also to utilize the data in visualization software, specifically Power BI, it was crucial to ensure the tables were in a compatible format for import.
 
 The first step focused on a global exploratory analysis of migration stock data across various years, examining migration trends at a global and interregional (intercontinental) level. This broader contextual analysis was essential for understanding worldwide migration patterns before narrowing the scope to specific regions. Subsequently, the focus shifted to regional dynamics, particularly the migration flows between Latin America and Europe, providing a more detailed and localized insight into the migration context.
+
+➡️ Jupyter notebook:
+
+______
 
 ### 2.4.1. World Bank Indicators
 
