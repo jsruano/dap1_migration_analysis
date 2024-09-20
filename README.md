@@ -57,7 +57,29 @@ The sources listed below were selected for the analysis and were included and im
 
 Source: [International Migrant Stock](https://www.un.org/development/desa/pd/content/international-migrant-stock)
 
-Description: This dataset includes processed graphs and original databases detailing immigration and emigration statistics for various countries. The dataset presents estimates of international migrants disaggregated by age, sex, and country of origin. These estimates are based on national statistics, primarily obtained from population censuses, population registers, and representative surveys. Data are available for the years 1990, 1995, 2000, 2005, 2010, 2015, and 2020, covering 232 countries and areas worldwide.
+The International Migrant Stock dataset provides detailed estimates of the number of international migrants residing in various countries, disaggregated by age, sex, and country of origin. These estimates are based on national statistics, primarily derived from population censuses, population registers, and representative surveys. The dataset includes information for the years 1990, 1995, 2000, 2005, 2010, 2015, and 2020, covering a total of 232 countries and areas worldwide.
+
+_____
+
+**Key points for data interpretation:**
+
+**Data units:** The figures represent the total number of international migrants living in a given country who were born in another country. These numbers reflect the migrant stock (total count of migrants) rather than migration flows (annual movements). The data provides a snapshot of the migrant population at specific points in time.
+
+**Origin and destination:** The dataset is organized by both the country of origin (where the migrants were born) and the country of destination (where the migrants currently reside). This means the data shows how many people born in a specific country are living in another country at a given time.
+
+**Annual columns:** The dataset includes columns for specific years (e.g., 1990, 2000). These columns represent the total number of international migrants in those years, not cumulative flows over previous years. For example, if the dataset shows 50,000 migrants from Country B (origin) residing in Country A (destination) in 1990, it reflects the number present in that year, not how many arrived or left over a period.
+
+**Positive values:** The values are always positive, representing the count of people residing in a different country from their country of birth. The data does not separate entries and exits but provides a total count of migrants in each year.
+
+_____
+
+**Migration stock vs. migration flow:**
+
+**Migration stock:** represents the total number of immigrants residing in a country at a specific point in time. It is a static snapshot of the migrant population for the years provided.
+
+**Migration Flows:** refers to the number of people moving into or out of a country over a specific period (typically annually), showing dynamic movement rather than a snapshot.
+
+_____
 
 ### World Bank Group: indicators
 
