@@ -136,7 +136,7 @@ _____
 
 - **Handling countries, areas and regions:** the raw data from the World Bank included regional and aggregated data that was not relevant for this analysis. We filtered out these regions and kept only the country-level data. This was necessary as the regional data was often ambiguous and not suitable for detailed country-specific analysis.
 
-- **Database schema design:** the transformed data was imported into a relational database with a schema that includes a parent table (**wb_indicators**) which holds all indicators by country. Two secondary tables were created: one for countries (**wb_countries**) and another for indicators (**wb_indicators**). Each country and indicator is assigned a unique **id**.
+- **Database Schema Design**: The transformed data was imported into a relational database with a schema designed to follow normalization principles. The schema includes a primary table, **wb_indicators**, which stores all indicators by country. Additionally, four secondary tables were created: **wb_countries**, **wb_regions**, **wb_income_groups**, and **wb_indicators**. Each country, region, income group, and indicator is assigned a unique ID, ensuring proper data organization and integrity.
 
 Raw data: [data/raw/wb_indicators](data/raw/wb_indicators)  
 Database schema: [wb_database_schema](data/processed/[wb_database_schema.jpg)
