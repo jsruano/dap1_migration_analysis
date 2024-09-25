@@ -183,7 +183,7 @@ The initial phase of the analysis involved exploring the United Nations database
 
 The first step focused on a global exploratory analysis of migration stock data across various years, examining migration trends at a global and interregional (intercontinental) level. This broader contextual analysis was essential for understanding worldwide migration patterns before narrowing the scope to specific regions. Subsequently, the focus shifted to regional dynamics, particularly the migration flows between Latin America and Europe, providing a more detailed and localized insight into the migration context.
 
-➡️ Jupyter notebook: [2.4.1. UN data exploratory analysis](https://github.com/jsruano/migration_analysis/blob/16bf20b751d07081fad3065015bb3a280a90767f/notebooks/2.4.1.%20UN%20data%20exploratory%20analysis.ipynb)
+➡️ Jupyter notebook: [2.4.1. UN exploratory analysis](https://github.com/jsruano/migration_analysis/blob/057e2d221eea4e00fd052dd2ee49d8bb1cf58595/notebooks/2.4.1.%20UN%20data%20exploratory%20analysis.ipynb)
 
 ______
 
