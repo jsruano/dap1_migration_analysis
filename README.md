@@ -189,47 +189,9 @@ ______
 
 ### 2.4.2. World Bank Indicators
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+In process...
 
 ## 2.5. Data visualization
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-## 3.1. GDP per Capita Analysis
-Comparison between Argentina, Italy, and Spain.
-Impact of GDP per capita on migration patterns.
-
-## 3.2. Poverty Rate Analysis
-Trends in poverty rates in Argentina.
-Correlation between poverty rates and migration to Europe.
-
-## 3.3. Comparison of Economic Conditions
-Comparison of key indicators (GDP per capita, poverty, income inequality) between Argentina, Italy, and Spain.
-
-## 3.4. Evaluation of Migration Flows
-Analysis of migration flows between Argentina and Europe.
-Identification of trends and patterns.
-
-4. Results
-4.1. Summary of Findings
-Key discoveries from the analysis.
-4.2. Interpretation of Results
-Explanation of how results address the research questions.
-4.3. Implications for Migration
-Discussion on the implications of findings for understanding migration patterns.
-
-5. Conclusions and Recommendations
-5.1. Conclusions
-Summary of key conclusions based on data analysis.
-5.2. Recommendations
-Suggestions for migration policies and future research.
-
-6. Appendices
-6.1. Additional Data
-Tables and charts supporting the analysis.
-6.2. Technical Documentation
-Details on data processing and analytical techniques used.
-
-7. References
-7.1. Sources Consulted
-Citations of datasets, articles, and other resources used in the report.
+In process...
+The project is not finished yet.
