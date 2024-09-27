@@ -1,8 +1,8 @@
-## DATA ANALYSIS PROJECT
-# MIGRATION PATTERNS BETWEEN ARGENTINA AND EUROPE
+## Data Analysis Project
+# Migration Patterns between South America and Europe
 
 # 1. Introduction
-## 1.1. Project background
+## 1.1. Background
 Migration has been a defining element in shaping societies globally, with historical movements significantly influencing contemporary patterns. Argentina, in particular, experienced a profound wave of European immigration during the 19th and early 20th centuries. This period, often referred to as the Great Immigration, saw millions of Europeans—primarily from Italy, Spain, and other European nations—migrate to Argentina. This influx was driven by factors such as economic hardship, political instability, and the promise of new opportunities in the Americas. The immigrants contributed substantially to Argentina’s cultural, social, and economic landscape, leaving a lasting legacy in the country's demographic composition and national identity.
 
 In recent decades, a reverse migration trend has emerged, with increased flows of Argentinians moving to Europe, particularly Spain and Italy. This shift reflects a complex interplay of factors including economic challenges, political developments, and the evolving global context. As Argentina navigates economic difficulties and high poverty rates, the historical connection with European countries, once destinations for Argentine immigrants, now becomes a poignant aspect of contemporary migration dynamics. Understanding this reversal not only sheds light on current migration trends but also highlights the enduring links between Argentina and Europe, shaped by a shared historical narrative of migration.
