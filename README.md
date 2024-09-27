@@ -183,13 +183,15 @@ The initial phase of the analysis involved exploring the United Nations database
 
 The first step focused on a global exploratory analysis of migration stock data across various years, examining migration trends at a global and interregional (intercontinental) level. This broader contextual analysis was essential for understanding worldwide migration patterns before narrowing the scope to specific regions. Subsequently, the focus shifted to regional dynamics, particularly the migration flows between Latin America and Europe, providing a more detailed and localized insight into the migration context.
 
-➡️ Jupyter notebook: [2.4.1. UN exploratory analysis](https://github.com/jsruano/migration_analysis/blob/057e2d221eea4e00fd052dd2ee49d8bb1cf58595/notebooks/2.4.1.%20UN%20data%20exploratory%20analysis.ipynb)
+➡️ Jupyter notebook: [2.4.1. UN data exploratory analysis](https://github.com/jsruano/migration_analysis/blob/057e2d221eea4e00fd052dd2ee49d8bb1cf58595/notebooks/2.4.1.%20UN%20data%20exploratory%20analysis.ipynb)
 
 ______
 
 ### 2.4.2. World Bank Indicators
 
-In process...
+After unpivoting the data for easier manipulation in Power BI, visualizations revealed inconsistencies, leading to the exclusion of the poverty headcount ratio indicator. Correlations between indicators were generally weak, suggesting a multifactorial nature not fully captured by the chosen data. A deeper study would require broader data and sources for more precise insights.
+
+➡️ Jupyter notebook: [2.4.2. WB data exploratory analysis](https://github.com/jsruano/migration_analysis/blob/31f9995232956c3947698941dedb2e23de0773c7/notebooks/2.4.2.%20WB%20data%20exploratory%20analysis.ipynb)
 
 ## 2.5. Data visualization
 
