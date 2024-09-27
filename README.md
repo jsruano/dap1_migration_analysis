@@ -9,41 +9,15 @@ In recent decades, a reverse migration trend has emerged, with increased flows o
 
 In the current global context, understanding migration patterns is crucial for policymakers, researchers, and institutions. This project focuses on analyzing migration flows from Argentina to Europe, particularly to Spain and Italy, over the past 30 years. This period is selected to observe recent trends and compare them with historical migrations, reflecting on the historical and cultural connections between these countries.
 
-## 1.2. Objectives
+## 1.2. General objectives
 
-### General objectives
+To explore migration trends between Latin America and Europe over the past 30 years, with a specific focus on how migration stock data reflects cultural and historical ties, particularly between South America (Argentina) and Europe (Spain and Italy). Additionally, to analyze the correlations between key economic indicators such as poverty rates, GDP per capita, unemployment, and net migration.
 
-To analyze the relationship between poverty levels, employment, and other relevant indicators that may trigger migration from Argentina to Europe over the past 30 years, with a focus on Spain and Italy. These countries are chosen due to their historical, cultural, and ancestral connections with Argentina, stemming from significant European immigration in the 19th and 20th centuries.
+## 1.3. Research and analysis questions
 
-### Specific objectives
-
-- To evaluate how variations in GDP per capita among Argentina, Italy, and Spain influence migration patterns.
-- To investigate the correlation between poverty rates in Argentina and migration trends towards Europe.
-- To compare economic conditions in Argentina with those in Italy and Spain, focusing on key indicators such as GDP per capita and poverty levels.
-- To assess migration exchanges between Argentina and Europe based on existing data.
-- To analyze the demographic composition of migrants, including age, education level, and professional background, and how these factors impact migration decisions.
-
-## 1.3. Research questions
-
-- **How has the poverty rate in Argentina changed over the past 30 years, and how has this impacted migration flows to Italy and Spain?**
-
-    Hypothesis: Increased poverty rates in Argentina are positively correlated with higher migration rates to Italy and Spain.
-
-- **What differences exist in GDP per capita among Argentina, Italy, and Spain, and how do these differences relate to migration decisions?**
-
-    **Hypothesis:** Lower GDP per capita in Argentina relative to Italy and Spain is associated with higher migration rates, as individuals seek better economic opportunities in countries with higher GDP per capita.
-
-- **Is there a significant correlation between poverty in Argentina and migration to Europe?**
-
-    **Hypothesis:** There is a significant correlation between higher poverty levels in Argentina and increased migration to Europe, with more severe poverty leading to higher migration rates.
-
-- **What other economic factors (such as income inequality) might be influencing migration patterns?**
-
-    **Hypothesis:** Besides poverty, high levels of income inequality in Argentina may also contribute to increased migration, as individuals from lower-income brackets seek more equitable opportunities in Europe.
-
-- **What are the demographic characteristics of migrants from Argentina to Europe, and how do these characteristics influence migration trends?**
-
-    **Hypothesis:** The demographic profile of migrants (including age, education, and occupation) affects migration trends, with younger, more educated individuals being more likely to migrate to Europe for better job prospects.
+- Where do Latin America and Europe stand in terms of permanent migration flows?
+- What is the impact of historical and cultural connections on migration between these regions?
+- Are there significant correlations between economic indicators (poverty, GDP per capita, unemployment) and migration patterns?
 
 # 2. Methodologycal process
 
@@ -83,7 +57,7 @@ _____
 
 ### World Bank Group: indicators
 
-- **GDP per Capita (current US$)**
+- **GDP per capita (current US$)**
 
     Indicator ID: NY.GDP.PCAP.CD
 
@@ -91,7 +65,7 @@ _____
 
     This indicator measures the total value of goods and services produced in a country divided by its population, expressed in current US dollars. It is commonly used to assess the standard of living and economic performance of a country. Comparing GDP per capita between Argentina, Italy, and Spain helps contextualize Argentina's economic standing relative to these European countries, offering insights into why migration trends might occur.
 
-- **Net Migration**
+- **Net migration**
 
     Indicator ID: SM.POP.NETM
 
@@ -99,7 +73,7 @@ _____
 
     This indicator measures the net number of migrants (immigrants minus emigrants) in a country. It provides a direct view of migration trends and patterns.
 
-- **Poverty Headcount Ratio at National Poverty Lines (% of Population)**
+- **Poverty headcount ratio at national poverty lines (% of population)**
 
     Indicator ID: SI.POV.NAHC
 
@@ -107,7 +81,7 @@ _____
 
     This indicator measures the percentage of the population living below the national poverty line. It is a key measure for understanding local poverty conditions and is crucial for correlating poverty with migration trends. It provides a precise view of how many people are living under conditions deemed inadequate by national standards.
 
-- **Unemployment, Total (% of Total Labor Force) (modeled ILO estimate)**
+- **Total unemployment (% of total labor force) (modeled ILO estimate)**
 
     Indicator ID: SL.UEM.TOTL.ZS
 
@@ -121,7 +95,7 @@ _____
 
 In this phase, data was collected from various sources, including the World Bank and the United Nations. The datasets were initially downloaded in multiple formats, such as **.csv** and **.xlsx**, and were processed using **Navicat**, a database management software. This step involved examining the data structure and content, especially focusing on the data contained in Excel files. Data was edited directly in Excel to ensure proper formatting and structure before importing it into the database.
 
-Raw data: [data/raw](data/raw)
+Raw data: [raw data files]([data/raw](https://github.com/jsruano/migration_analysis/tree/865d412dbe98d2bba75209ec1e8e0e07aaa08e70/data/raw))
 
 ### 2.2.2. Database design
 
@@ -138,8 +112,8 @@ _____
 
 - **Database Schema Design**: The transformed data was imported into a relational database with a schema designed to follow normalization principles. The schema includes a primary table, **wb_indicators**, which stores all indicators by country. Additionally, four secondary tables were created: **wb_countries**, **wb_regions**, **wb_income_groups**, and **wb_indicators**. Each country, region, income group, and indicator is assigned a unique ID, ensuring proper data organization and integrity.
 
-Raw data: [data/raw/wb_indicators](data/raw/wb_indicators)  
-Database schema: [wb_database_schema](data/processed/[wb_database_schema.jpg)
+Raw data: [wb_indicators files]([data/raw/wb_indicators](https://github.com/jsruano/migration_analysis/tree/865d412dbe98d2bba75209ec1e8e0e07aaa08e70/data/raw/wb_indicators))  
+Database schema: [wb_database_schema](https://github.com/jsruano/migration_analysis/blob/865d412dbe98d2bba75209ec1e8e0e07aaa08e70/data/processed/wb_database_schema.jpg)
 
 _____
 
@@ -152,10 +126,10 @@ _____
  - **Schema design:** a logical and physical schema was designed organizing data in the database, including a parent table (**un_migration_stock**) and three secondary tables (**un_countries**, **un_subregion** and **un_region**).
 
 Raw data:   
-[undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif](data/raw/un_international_migration_stock/undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif.xlsx)  
-[aggregates_correspondence_table_2020_1_modif](data/raw/un_international_migration_stock/aggregates_correspondence_table_2020_1_modif.xlsx)
+[undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif](https://github.com/jsruano/migration_analysis/blob/865d412dbe98d2bba75209ec1e8e0e07aaa08e70/data/raw/un_international_migration_stock/undesa_pd_2020_ims_stock_by_sex_destination_and_origin_modif.xlsx)  
+[aggregates_correspondence_table_2020_1_modif](https://github.com/jsruano/migration_analysis/blob/865d412dbe98d2bba75209ec1e8e0e07aaa08e70/data/raw/un_international_migration_stock/aggregates_correspondence_table_2020_1_modif.xlsx)
 
-Database schema: [un_database_schema](data/processed/un_database_schema.jpg)
+Database schema: [un_database_schema](https://github.com/jsruano/migration_analysis/blob/865d412dbe98d2bba75209ec1e8e0e07aaa08e70/data/processed/un_database_schema.jpg)
   
 _____
 
@@ -195,6 +169,10 @@ After unpivoting the data for easier manipulation in Power BI, visualizations re
 
 ## 2.5. Data visualization
 
-➡️ Visualization report (Microsoft Power BI): [dap1.pbix file](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)  
-➡️ Visualization report (.pdf):[dap1.pdf file](https://github.com/jsruano/migration_analysis/blob/d3e6eacaef7f393e2cc8096755808b2c9167f84d/visualizations/dap1.pdf)  
-➡️ Data files: [visualizations files](https://github.com/jsruano/migration_analysis/tree/d3e6eacaef7f393e2cc8096755808b2c9167f84d/data/processed/visualizations))
+The PDF version of this report provides a static representation of the visualizations and does not capture the full interactive capabilities offered by the various graphs.
+
+To experience the complete functionality and interact with the data, the .pbix file must be downloaded and explored in Power BI Desktop.
+
+➡️ Visualization report (Microsoft Power BI): [dap1.pbix](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)  
+➡️ Visualization report (.pdf):[dap1.pdf](https://github.com/jsruano/migration_analysis/blob/d3e6eacaef7f393e2cc8096755808b2c9167f84d/visualizations/dap1.pdf)  
+➡️ Data files: [visualizations data files](https://github.com/jsruano/migration_analysis/tree/d3e6eacaef7f393e2cc8096755808b2c9167f84d/data/processed/visualizations)
