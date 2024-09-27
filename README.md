@@ -195,6 +195,6 @@ After unpivoting the data for easier manipulation in Power BI, visualizations re
 
 ## 2.5. Data visualization
 
-➡️ Visualization report (Microsoft Power BI): [.pbix file](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)
-➡️ Visualization report (.pdf):
-➡️ Data files:
+➡️ Visualization report (Microsoft Power BI): [dap1.pbix file](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)  
+➡️ Visualization report (.pdf):[dap1.pdf file](https://github.com/jsruano/migration_analysis/blob/d3e6eacaef7f393e2cc8096755808b2c9167f84d/visualizations/dap1.pdf)  
+➡️ Data files: [visualizations files](https://github.com/jsruano/migration_analysis/tree/d3e6eacaef7f393e2cc8096755808b2c9167f84d/data/processed/visualizations))
