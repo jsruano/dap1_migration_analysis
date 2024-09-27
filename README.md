@@ -195,5 +195,6 @@ After unpivoting the data for easier manipulation in Power BI, visualizations re
 
 ## 2.5. Data visualization
 
-In process...
-The project is not finished yet.
+➡️ Visualization report (Microsoft Power BI): [.pbix file](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)
+➡️ Visualization report (.pdf):
+➡️ Data files:
