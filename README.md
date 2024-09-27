@@ -169,10 +169,38 @@ After unpivoting the data for easier manipulation in Power BI, visualizations re
 
 ## 2.5. Data visualization
 
-The PDF version of this report provides a static representation of the visualizations and does not capture the full interactive capabilities offered by the various graphs.
+The process of generating visualizations began by creating the necessary tables in MySQL, using Navicat. These tables were formatted to include the relevant data fields, structured to facilitate clear analysis, extracting and processing the data, ensuring it was cleaned and prepared for importing them into **Microsoft Power BI**.
+
+# 3. Results
+
+## 3.1. Data visualization
+
+The .pdf version of the report provides a static representation of the visualizations and does not capture the full interactive capabilities offered by the various graphs.
 
 To experience the complete functionality and interact with the data, the .pbix file must be downloaded and explored in Power BI Desktop.
 
 ➡️ Visualization report (Microsoft Power BI): [dap1.pbix](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)  
 ➡️ Visualization report (.pdf):[dap1.pdf](https://github.com/jsruano/migration_analysis/blob/d3e6eacaef7f393e2cc8096755808b2c9167f84d/visualizations/dap1.pdf)  
 ➡️ Data files: [visualizations data files](https://github.com/jsruano/migration_analysis/tree/d3e6eacaef7f393e2cc8096755808b2c9167f84d/data/processed/visualizations)
+
+## 3.2. Conclusions and relevant insights
+
+The United Nations migration stock data was instrumental in achieving the project's objectives, providing clear insights into permanent migration patterns, particularly between South America and Europe. The data enabled an in-depth understanding of the global scale of migration and its significant increase over the past three decades.
+
+Using MySQL in Navicat, the analysis ranked countries based on the magnitude of permanent migration movements. It revealed that the United States is the top destination, hosting 44.35% of the global migrant population in 2020, representing 53.56 million migrants from a worldwide total of 120.79 million. Notably, over the last 30 years (1990–2020), the global stock of permanent migrants doubled, a key observation when considering the scale of these movements. The generated visualizations, particularly the interactive charts, treemaps, and maps, helped to depict these insights clearly, showing the concentration of migration stock by origin and destination regions.
+
+At the regional level, Latin America showed a notable increase in permanent migration, although it remains behind regions like Africa and Asia in terms of sheer volume. Interestingly, Europe remains a key destination for migrants from South America, with the region contributing significantly more than the Caribbean and Central America. In 2020, Europe hosted 41.12 million migrants (a third of the global total), with 5.40 million of those coming from Latin America and the Caribbean. This reflects both historical migration trends and ongoing economic and social factors.
+
+A closer examination of migration between Europe and South America revealed several important insights. Spain emerged as the top European destination for Latin American migrants, hosting 54.54% of them, while Italy accounted for 13.72%. In terms of migrant origins, Brazil, Colombia, Ecuador, and Venezuela ranked as the top sources of migrants to Europe, with Argentina occupying the fifth spot. Specifically, Argentina's migratory relationship with Spain and Italy reflected the countries' deep historical and cultural ties. Of all Argentine migrants in Europe, 65.27% reside in Spain and 16.57% in Italy, showing a strong preference for these countries.
+
+Globally, Argentine emigrants primarily move to Spain (38.27%), followed by the United States (29.48%), Italy (9.71%), and Israel (5.13%). Interestingly, 357,200 Argentine migrants live in Spain and Italy, while another 331,600 have moved permanently to other Latin American countries. These findings reflect Argentina's intricate migration patterns, shaped by both historical and contemporary economic drivers.
+
+The exploration of time-series data provides a dynamic view of how migration trends have shifted from 1990 to 2020. Visualizing the migration stock over these years revealed evolving tendencies that vary across different regions and countries, adding depth to the analysis.
+
+However, attempts to find strong correlations between economic indicators (from World Bank data) and migration patterns did not yield significant insights. While data on poverty, unemployment, and GDP per capita were analyzed, no clear relationships emerged between these factors and migration flows or stock. This suggests that migration is a multifactorial phenomenon influenced by various economic, social, and historical elements beyond the scope of this particular dataset.
+
+In summary, the project achieved its primary goal of analyzing migration patterns between South America and Europe, particularly focusing on Argentina, Spain, and Italy. Although no significant correlations were found between migration and economic indicators, the study uncovered valuable insights into the scale, destinations, and origins of migrants, especially within the context of the last three decades. Further studies with broader datasets may be required to fully explore the multifaceted nature of migration trends.
+
+## 3.3. Scope
+
+This project primarily focuses on data analysis and visualization, employing MySQL for data structuring and Power BI for the generation of interactive visuals. While the data model and exploratory analysis were key components, it's important to note that the project does not aim for methodological rigor typically expected in academic research. Instead, the focus is on practical data manipulation and visualizations generation.
