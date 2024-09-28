@@ -180,7 +180,7 @@ The .pdf version of the report provides a static representation of the visualiza
 To experience the complete functionality and interact with the data, the .pbix file must be downloaded and explored in Power BI Desktop.
 
 ➡️ Visualization report (Microsoft Power BI): [dap1.pbix](https://github.com/jsruano/migration_analysis/blob/5feab804ff185e75f92ae31656c13a55e97ed2e7/visualizations/dap1.pbix)  
-➡️ Visualization report (.pdf):[dap1.pdf](https://github.com/jsruano/migration_analysis/blob/d3e6eacaef7f393e2cc8096755808b2c9167f84d/visualizations/dap1.pdf)  
+➡️ Visualization report (.pdf): [dap1.pdf](https://github.com/jsruano/migration_analysis/blob/d3e6eacaef7f393e2cc8096755808b2c9167f84d/visualizations/dap1.pdf)  
 ➡️ Data files: [visualizations data files](https://github.com/jsruano/migration_analysis/tree/d3e6eacaef7f393e2cc8096755808b2c9167f84d/data/processed/visualizations)
 
 ## 3.2. Conclusions and relevant insights
