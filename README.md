@@ -3,6 +3,7 @@
 
 # 1. Introduction
 ## 1.1. Background
+
 Migration has long played a crucial role in shaping societies worldwide, with Latin America and Europe sharing deep-rooted historical ties. Argentina, like many Latin American nations, experienced waves of European immigration during the 19th and early 20th centuries, primarily from Spain and Italy, which significantly contributed to its cultural and economic fabric. Additionally, many Latin American countries share similar colonial histories with Spain, linking their contemporary migration patterns to Europe.
 
 In recent decades, however, Latin American countries, including Argentina, have experienced reverse migration to Europe due to economic challenges and political shifts. Hypothetically, this trend is particularly pronounced in countries with strong historical ties to Europe, such as Spain and Italy, reflecting both enduring colonial legacies and evolving socio-economic dynamics.
