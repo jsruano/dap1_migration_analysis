@@ -18,7 +18,7 @@ To explore migration trends between Latin America and Europe over the past 30 ye
 
 - Where do Latin America and Europe stand in terms of permanent migration flows?
 - What is the global context of permanent migration between countries, and how has it evolved over the last 30 years (1990-2020)?
-- Is there evidence to suggest the impact of historical and cultural connections on migration between Latin America and Europe? Are there also signs of relationships between individual countries tied to their shared historical and cultural contexts?
+- Is there evidence to suggest the impact of historical and cultural connections on migration between Latin America and Europe? Are there also signs of relationships between countries and regions tied to their shared historical and cultural contexts?
 - Are there significant correlations between economic indicators (poverty, GDP per capita, unemployment) and migration patterns?
 
 # 2. Methodologycal process
