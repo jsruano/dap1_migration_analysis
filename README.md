@@ -3,20 +3,21 @@
 
 # 1. Introduction
 ## 1.1. Background
-Migration has been a defining element in shaping societies globally, with historical movements significantly influencing contemporary patterns. Argentina, in particular, experienced a profound wave of European immigration during the 19th and early 20th centuries. This period, often referred to as the Great Immigration, saw millions of Europeans—primarily from Italy, Spain, and other European nations—migrate to Argentina. This influx was driven by factors such as economic hardship, political instability, and the promise of new opportunities in the Americas. The immigrants contributed substantially to Argentina’s cultural, social, and economic landscape, leaving a lasting legacy in the country's demographic composition and national identity.
+Migration has long played a crucial role in shaping societies worldwide, with Latin America and Europe sharing deep-rooted historical ties. Argentina, like many Latin American nations, experienced waves of European immigration during the 19th and early 20th centuries, primarily from Spain and Italy, which significantly contributed to its cultural and economic fabric. Additionally, many Latin American countries share similar colonial histories with Spain, linking their contemporary migration patterns to Europe.
 
-In recent decades, a reverse migration trend has emerged, with increased flows of Argentinians moving to Europe, particularly Spain and Italy. This shift reflects a complex interplay of factors including economic challenges, political developments, and the evolving global context. As Argentina navigates economic difficulties and high poverty rates, the historical connection with European countries, once destinations for Argentine immigrants, now becomes a poignant aspect of contemporary migration dynamics. Understanding this reversal not only sheds light on current migration trends but also highlights the enduring links between Argentina and Europe, shaped by a shared historical narrative of migration.
+In recent decades, however, Latin American countries, including Argentina, have experienced reverse migration to Europe due to economic challenges and political shifts. Hypothetically, this trend is particularly pronounced in countries with strong historical ties to Europe, such as Spain and Italy, reflecting both enduring colonial legacies and evolving socio-economic dynamics.
 
-In the current global context, understanding migration patterns is crucial for policymakers, researchers, and institutions. This project focuses on analyzing migration flows from Argentina to Europe, particularly to Spain and Italy, over the past 30 years. This period is selected to observe recent trends and compare them with historical migrations, reflecting on the historical and cultural connections between these countries.
+This project aims to analyze migration stock patterns between Latin America and Europe over the past 30 years (1990-2020) alongside certain socioeconomic indicators. The period was chosen based on data availability, providing insights into modern migration trends and patterns while allowing reflection on the broader historical context. It does not delve into the sociological or qualitative aspects of migration but focuses on a quantitative analysis, factors that are likely incomplete for fully addressing the complexities of this phenomenon.
 
 ## 1.2. General objectives
 
-To explore migration trends between Latin America and Europe over the past 30 years, with a specific focus on how migration stock data reflects cultural and historical ties, particularly between South America (Argentina) and Europe (Spain and Italy). Additionally, to analyze the correlations between key economic indicators such as poverty rates, GDP per capita, unemployment, and net migration.
+To explore migration trends between Latin America and Europe over the past 30 years, with a specific focus on how migration stock data reflects cultural and historical ties, particularly between South America and Europe, and particularly between Argentina, Spain and Italy. Additionally, to analyze the correlations between key economic indicators such as poverty rates, GDP per capita, unemployment, and net migration.
 
 ## 1.3. Research and analysis questions
 
 - Where do Latin America and Europe stand in terms of permanent migration flows?
-- What is the impact of historical and cultural connections on migration between these regions?
+- What is the global context of permanent migration between countries, and how has it evolved over the last 30 years (1990-2020)?
+- Is there evidence to suggest the impact of historical and cultural connections on migration between Latin America and Europe? Are there also signs of relationships between individual countries tied to their shared historical and cultural contexts?
 - Are there significant correlations between economic indicators (poverty, GDP per capita, unemployment) and migration patterns?
 
 # 2. Methodologycal process
@@ -197,10 +198,12 @@ Globally, Argentine emigrants primarily move to Spain (38.27%), followed by the 
 
 The exploration of time-series data provides a dynamic view of how migration trends have shifted from 1990 to 2020. Visualizing the migration stock over these years revealed evolving tendencies that vary across different regions and countries, adding depth to the analysis.
 
-However, attempts to find strong correlations between economic indicators (from World Bank data) and migration patterns did not yield significant insights. While data on poverty, unemployment, and GDP per capita were analyzed, no clear relationships emerged between these factors and migration flows or stock. This suggests that migration is a multifactorial phenomenon influenced by various economic, social, and historical elements beyond the scope of this particular dataset.
-
-In summary, the project achieved its primary goal of analyzing migration patterns between South America and Europe, particularly focusing on Argentina, Spain, and Italy. Although no significant correlations were found between migration and economic indicators, the study uncovered valuable insights into the scale, destinations, and origins of migrants, especially within the context of the last three decades. Further studies with broader datasets may be required to fully explore the multifaceted nature of migration trends.
+However, attempts to find strong correlations between World Bank's economic indicators and migration patterns did not yield significant insights. While data on poverty, unemployment, and GDP per capita were analyzed, no clear relationships emerged between these factors and migration flows or stock. This suggests that migration is a multifactorial phenomenon influenced by various economic, social, and historical elements beyond the scope of this particular dataset. Further studies with broader datasets may be required to fully explore the multifaceted nature of migration trends.
 
 ## 3.3. Scope
 
-This project primarily focuses on data analysis and visualization, employing MySQL for data structuring and Power BI for the generation of interactive visuals. While the data model and exploratory analysis were key components, it's important to note that the project does not aim for methodological rigor typically expected in academic research. Instead, the focus is on practical data manipulation and visualizations generation.
+This project primarily focuses on data analysis and visualization, utilizing MySQL for data structuring and Power BI for interactive visualizations. While the data model and exploratory analysis were key elements, the project does not aim for the methodological rigor expected in academic research. Instead, the emphasis is on practical data manipulation and visualization generation.
+
+Although historical and cultural connections between migration patterns are considered in the hypothesis, further data would be required to robustly conclude their impact.
+
+The project does not delve into the sociological or qualitative aspects of migration, such as motivations or cultural influences, and focuses on a quantitative analysis using available data, which may be incomplete for fully addressing the complexities of these phenomena.
